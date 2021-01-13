@@ -1,0 +1,188 @@
+body 
+{
+	color: black;
+	margin-top: 60px; 
+}
+
+img 
+{
+	max-width: 100%;
+	height: auto; 
+}
+
+/*ШАПКА*/
+nav.navbar
+{
+	background-color: #2B2D3D !important;
+	color: #fff;
+}
+
+
+.menu li
+{
+	display: inline-block;
+	padding: 0 20px;
+	box-sizing: border-box;
+	vertical-align: middle;
+}
+
+
+.menu li:last-child
+{
+	padding-right: 0;
+}
+
+
+a.logo
+{
+	font-size: 30px;
+	padding-right: 250px;
+	padding-left: 240px;
+	font-style: italic;
+}
+
+
+.images
+{
+	position: relative;
+	display: flex;
+	height: 750px;
+	background-size: 100% 100%;
+	background-image: url(../img/background1.jpg);
+	background-size: cover;
+	background-position: center center;
+}
+
+
+.flower
+{
+	position: absolute;
+	top: 40%;
+	left: 0;
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+
+.flower p
+{
+	font-style: italic;
+	line-height: 1.5;
+	font-size: 40px;
+}
+
+
+.button
+{
+	border-color: #2B2D3D;
+	background-color: #2B2D3D !important;
+	color: #fff;
+	font-size: 30px;
+	text-transform: uppercase;
+	border-radius: 20px;
+	margin-top: 20px;
+}
+
+
+.button:hover
+{
+	border: 2px solid #2B2D3D;
+	background-color: #2B2D3D !important;
+	color: #fff;
+}
+
+
+/*КОНТЕНТ*/
+
+.content
+{
+	font-size: 16px;
+	text-align: center;
+}
+
+h3
+{
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: bold;
+	color: #24252E;
+}
+
+
+.about_s
+{
+	margin: 0 0 40px;
+}
+
+
+.about p 
+{
+	font-size: 20px;
+	text-align: left;
+
+}
+
+
+.about ul
+{
+	text-align: left;
+}
+
+
+hr
+{
+	border: none;
+	background-color: #2B2D3D;
+	margin: 20px 0;
+	height: 2px;
+}
+
+
+/*КУРСЫ*/
+.back
+{
+	color: #FFF;
+	background-color: #32344A !important;
+	background-size: 100%;
+	padding-top: 1px;
+}
+
+.back h3
+{
+	color: #fff;
+}
+
+
+.back hr
+{
+
+	border: none;
+	background-color: #fff;
+	margin: 20px 0;
+	height: 2px;
+}
+
+.kours img 
+{
+	margin: 10px 0;
+}
+
+
+/*ПРАВИЛА ОБУЧЕНИЯ*/
+.terms 
+{
+	text-align: left;
+	font-size: 18px;
+	background-image: url(../img/background.jpg);
+}
+
+
+.terms p
+{
+		text-transform: uppercase;
+	text-align: left;
+	font-size: 25px;
+	font-weight: bold;
+}
+
